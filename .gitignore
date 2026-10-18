@@ -1,0 +1,9 @@
+__pycache__/
+.DS_Store
+.runtime/
+data/.write.lock
+data/.loops.lock
+data/.mpi-*
+data/draft.json
+data/loops-draft.json
+output/

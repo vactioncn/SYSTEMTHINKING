@@ -1,0 +1,1284 @@
+{
+  "schemaVersion": 1,
+  "mode": "live",
+  "revision": 5,
+  "updatedAt": "2026-10-17T12:31:35.157956+00:00",
+  "changeSummary": "校正本轮资料来源：卡片保留摘要标题，来源引用改为用户原话；观点、内容与连线不变。",
+  "topic": {
+    "title": "过去一年，公司的实际销售结果持续未达到销售目标",
+    "status": "confirmed",
+    "sourceIds": [
+      "src-sales-dilemma-001"
+    ],
+    "detail": "议题由用户明确提出；销售目标口径、考核周期、具体差额及达成数据尚未展开。确认议题不等于已独立核实经营数据。",
+    "openQuestions": [
+      "销售目标按月、季度还是年度考核？",
+      "目标与实际结果分别是多少？"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-sales-dilemma-001",
+      "origin": "user",
+      "label": "首次真实困局描述",
+      "quote": "现在我们公司真正的困局是什么？就是我们已经有一年的时间，整个销售的实际结果和我们的销售目标其实永远没有达到。"
+    },
+    {
+      "id": "src-initial-observation-01",
+      "origin": "user",
+      "label": "本轮念出的第 1 条初步判断",
+      "quote": "产品交付质量品质不高"
+    },
+    {
+      "id": "src-initial-observation-02",
+      "origin": "user",
+      "label": "本轮念出的第 2 条初步判断",
+      "quote": "销售体系化能力不足"
+    },
+    {
+      "id": "src-initial-observation-03",
+      "origin": "user",
+      "label": "本轮念出的第 3 条初步判断",
+      "quote": "没有及时复盘和纠错的能力"
+    },
+    {
+      "id": "src-initial-observation-04",
+      "origin": "user",
+      "label": "本轮念出的第 4 条初步判断",
+      "quote": "关键技术突破比较慢"
+    },
+    {
+      "id": "src-initial-observation-05",
+      "origin": "user",
+      "label": "本轮念出的第 5 条初步判断",
+      "quote": "网销渠道没有打开"
+    },
+    {
+      "id": "src-initial-observation-06",
+      "origin": "user",
+      "label": "本轮念出的第 6 条初步判断",
+      "quote": "同时存在多个产品线，偏多"
+    },
+    {
+      "id": "src-initial-observation-07",
+      "origin": "user",
+      "label": "本轮念出的第 7 条初步判断",
+      "quote": "历史遗留问题长期积累未消化"
+    },
+    {
+      "id": "src-initial-observation-08",
+      "origin": "user",
+      "label": "本轮念出的第 8 条初步判断",
+      "quote": "交付能力严重缺失"
+    },
+    {
+      "id": "src-initial-observation-09",
+      "origin": "user",
+      "label": "本轮念出的第 9 条初步判断",
+      "quote": "产品对客户有一定的交付门槛"
+    },
+    {
+      "id": "src-outline-001",
+      "origin": "user",
+      "label": "本次梳理 · It 1 观点",
+      "quote": "产品交付质量低"
+    },
+    {
+      "id": "src-outline-002",
+      "origin": "user",
+      "label": "本次梳理 · It 2 观点",
+      "quote": "销售体系化能力不足"
+    },
+    {
+      "id": "src-outline-003",
+      "origin": "user",
+      "label": "本次梳理 · It 3 观点",
+      "quote": "没有做及时复盘和纠错的机制"
+    },
+    {
+      "id": "src-outline-004",
+      "origin": "user",
+      "label": "本次梳理 · It 4 观点",
+      "quote": "关键技术突破的慢"
+    },
+    {
+      "id": "src-outline-005",
+      "origin": "user",
+      "label": "本次梳理 · It 5 观点",
+      "quote": "网销渠道没有打开"
+    },
+    {
+      "id": "src-outline-006",
+      "origin": "user",
+      "label": "本次梳理 · It 6 观点",
+      "quote": "同时间在做的产品偏多"
+    },
+    {
+      "id": "src-outline-007",
+      "origin": "user",
+      "label": "本次梳理 · It 7 观点",
+      "quote": "交付能力严重缺失"
+    },
+    {
+      "id": "src-outline-008",
+      "origin": "user",
+      "label": "本次梳理 · It 1 具体情况",
+      "quote": "9大件交付后客户并没有都用起来，发布后还改了3个月"
+    },
+    {
+      "id": "src-outline-010",
+      "origin": "user",
+      "label": "本次梳理 · It 1 具体情况",
+      "quote": "AIGC交付给小鬼当佳后修改了近1个月才满足需求"
+    },
+    {
+      "id": "src-outline-012",
+      "origin": "user",
+      "label": "本次梳理 · It 1 具体情况",
+      "quote": "儿童规划书交付的演示版本基本问题也存在，比如相册浏览"
+    },
+    {
+      "id": "src-outline-014",
+      "origin": "user",
+      "label": "本次梳理 · It 2 具体情况",
+      "quote": "销售依然依靠个人能力成交，导致客户资源有所浪费"
+    },
+    {
+      "id": "src-outline-016",
+      "origin": "user",
+      "label": "本次梳理 · It 2 具体情况",
+      "quote": "没有完整完备的销售作战武器"
+    },
+    {
+      "id": "src-outline-018",
+      "origin": "user",
+      "label": "本次梳理 · It 2 具体情况",
+      "quote": "新品在销售培训中严重滞后，没有SOP进行指导"
+    },
+    {
+      "id": "src-outline-020",
+      "origin": "user",
+      "label": "本次梳理 · It 2 具体情况",
+      "quote": "销售单元模型至今没有完全复制拓展开"
+    },
+    {
+      "id": "src-outline-022",
+      "origin": "user",
+      "label": "本次梳理 · It 3 具体情况",
+      "quote": "管理层几乎没有认真做过复盘"
+    },
+    {
+      "id": "src-outline-023",
+      "origin": "user",
+      "label": "本次梳理 · It 3 具体情况",
+      "quote": "大部分问题都是周会上暴露，非常滞后"
+    },
+    {
+      "id": "src-outline-025",
+      "origin": "user",
+      "label": "本次梳理 · It 4 具体情况",
+      "quote": "汰片从立项至今已经有半年时间才基本可用"
+    },
+    {
+      "id": "src-outline-027",
+      "origin": "user",
+      "label": "本次梳理 · It 4 具体情况",
+      "quote": "追色问题近1年依然落后于竞品"
+    },
+    {
+      "id": "src-outline-029",
+      "origin": "user",
+      "label": "本次梳理 · It 4 具体情况",
+      "quote": "新的RAW格式文件处理，依然没有突破性解决方案"
+    },
+    {
+      "id": "src-outline-031",
+      "origin": "user",
+      "label": "本次梳理 · It 5 具体情况",
+      "quote": "网销运作近1年，目前还没有可以规模化复制的能力"
+    },
+    {
+      "id": "src-outline-033",
+      "origin": "user",
+      "label": "本次梳理 · It 7 具体情况",
+      "quote": "9月才找到客户成功经理，目前交付未成可复制的高效率体系"
+    },
+    {
+      "id": "src-outline-035",
+      "origin": "user",
+      "label": "本次梳理 · It 7 具体情况",
+      "quote": "多次去同一家客户那里推动交付反复交付"
+    },
+    {
+      "id": "src-outline-037",
+      "origin": "user",
+      "label": "本次梳理 · It 6 大的产品线",
+      "quote": "大的产品线：图灵精修、九大件、成长规划书、超级品控、图灵智影"
+    },
+    {
+      "id": "src-outline-038",
+      "origin": "user",
+      "label": "本次梳理 · It 6 功能线",
+      "quote": "功能线：汰片、多样性品控、超级对齐、AIGC融图"
+    },
+    {
+      "id": "src-outline-039",
+      "origin": "user",
+      "label": "本次梳理 · It 6 管理线",
+      "quote": "管理线：数据看板、CRM等"
+    },
+    {
+      "id": "src-outline-040",
+      "origin": "user",
+      "label": "本次梳理 · It 7 客户交付门槛",
+      "quote": "产品对客户有一定的交付门槛"
+    },
+    {
+      "id": "src-outline-041",
+      "origin": "user",
+      "label": "本次梳理 · It 7 网络条件",
+      "quote": "网络条件不好的客户需要重新布网"
+    },
+    {
+      "id": "src-outline-042",
+      "origin": "user",
+      "label": "本次梳理 · It 7 电脑条件",
+      "quote": "电脑条件不好的，需要升级电脑，否则就比较慢"
+    },
+    {
+      "id": "src-outline-043",
+      "origin": "user",
+      "label": "本次梳理 · It 7 图灵闪传",
+      "quote": "图灵闪传需要手机，有些老板不愿意买"
+    },
+    {
+      "id": "src-outline-044",
+      "origin": "user",
+      "label": "本次梳理 · Its 1 系统安排",
+      "quote": "没有一个产品交付标准，测试版就可以交给客户测试"
+    },
+    {
+      "id": "src-outline-045",
+      "origin": "user",
+      "label": "本次梳理 · Its 1 当前做法",
+      "quote": "测试版就可以交给客户测试"
+    },
+    {
+      "id": "src-outline-046",
+      "origin": "user",
+      "label": "本次梳理 · Its 1 预售安排",
+      "quote": "公司允许在产品不成熟的时候进行预售"
+    },
+    {
+      "id": "src-outline-047",
+      "origin": "user",
+      "label": "本次梳理 · Its 1 你给出的背景",
+      "quote": "为了实现短期销售业绩目标"
+    },
+    {
+      "id": "src-outline-048",
+      "origin": "user",
+      "label": "本次梳理 · Its 2 系统安排",
+      "quote": "没有一个严肃一点的销售上岗的考核和SOP"
+    },
+    {
+      "id": "src-outline-049",
+      "origin": "user",
+      "label": "本次梳理 · Its 2 考核取向",
+      "quote": "注重结果考核，不重视过程考核"
+    },
+    {
+      "id": "src-outline-050",
+      "origin": "user",
+      "label": "本次梳理 · Its 2 你给出的背景",
+      "quote": "为了实现短期销售目标"
+    },
+    {
+      "id": "src-outline-051",
+      "origin": "user",
+      "label": "本次梳理 · Its 3 系统安排",
+      "quote": "没有一个可以持续复用的规则和机制"
+    },
+    {
+      "id": "src-outline-052",
+      "origin": "user",
+      "label": "本次梳理 · Its 3 考核取向",
+      "quote": "注重结果考核，而忽略了过程"
+    },
+    {
+      "id": "src-outline-053",
+      "origin": "user",
+      "label": "本次梳理 · Its 3 你给出的判断",
+      "quote": "没有受到重视"
+    },
+    {
+      "id": "src-outline-054",
+      "origin": "user",
+      "label": "本次梳理 · Its 4 系统安排",
+      "quote": "近年来技术高手难以找到"
+    },
+    {
+      "id": "src-outline-055",
+      "origin": "user",
+      "label": "本次梳理 · Its 4 当前团队影响",
+      "quote": "技术处于主导优势，其他团队难以推动"
+    },
+    {
+      "id": "src-outline-056",
+      "origin": "user",
+      "label": "本次梳理 · Its 5 系统安排",
+      "quote": "产品在网销上没有一个清晰的定位"
+    },
+    {
+      "id": "src-outline-057",
+      "origin": "user",
+      "label": "本次梳理 · Its 5 公司重点",
+      "quote": "公司的重点在渠道和大B端"
+    },
+    {
+      "id": "src-outline-058",
+      "origin": "user",
+      "label": "本次梳理 · Its 6 系统安排",
+      "quote": "CEO评估和决策"
+    },
+    {
+      "id": "src-outline-059",
+      "origin": "user",
+      "label": "本次梳理 · Its 6 此前尝试",
+      "quote": "试过其他方式，没有更好的方法了"
+    },
+    {
+      "id": "src-outline-060",
+      "origin": "user",
+      "label": "本次梳理 · Its 6 当前要求",
+      "quote": "因此，对CEO的判断要求提升"
+    },
+    {
+      "id": "src-outline-061",
+      "origin": "user",
+      "label": "本次梳理 · Its 7 系统安排",
+      "quote": "没有形成完整交付的SOP和方法论"
+    },
+    {
+      "id": "src-outline-062",
+      "origin": "user",
+      "label": "本次梳理 · Its 7 岗位情况",
+      "quote": "关键岗位缺失"
+    },
+    {
+      "id": "src-outline-063",
+      "origin": "user",
+      "label": "本次梳理 · Its 5 通向 We 的线索",
+      "quote": "侥幸心理，试一试心态吧"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "it-delivery-quality-001",
+      "quadrant": "It",
+      "kind": "opinion",
+      "status": "reported",
+      "title": "产品交付质量低",
+      "detail": "这是你对产品交付质量的判断；下方三段客户交付经历是你给出的具体画面。",
+      "sourceIds": [
+        "src-initial-observation-01",
+        "src-outline-001"
+      ],
+      "openQuestions": [
+        "最近一次交付中，哪些产品功能没有被客户用起来？"
+      ],
+      "fields": {}
+    },
+    {
+      "id": "it-sales-capability-001",
+      "quadrant": "It",
+      "kind": "opinion",
+      "status": "reported",
+      "title": "销售体系化能力不足",
+      "detail": "这是你对销售方式和训练结果的判断；下方分别记录成交、作战材料、培训和销售单元模型的情况。",
+      "sourceIds": [
+        "src-initial-observation-02",
+        "src-outline-002"
+      ],
+      "openQuestions": [
+        "能否讲一个销售依靠个人能力成交或客户资源被浪费的实例？"
+      ],
+      "fields": {}
+    },
+    {
+      "id": "it-review-correction-001",
+      "quadrant": "It",
+      "kind": "opinion",
+      "status": "reported",
+      "title": "没有做及时复盘和纠错的机制",
+      "detail": "你把管理层复盘情况、问题在周会上才暴露，作为这个判断的具体依据。",
+      "sourceIds": [
+        "src-initial-observation-03",
+        "src-outline-003"
+      ],
+      "openQuestions": [
+        "最近一次周会上才暴露的问题，之前怎样被发现和处理？"
+      ],
+      "fields": {}
+    },
+    {
+      "id": "it-technology-progress-001",
+      "quadrant": "It",
+      "kind": "opinion",
+      "status": "reported",
+      "title": "关键技术突破的慢",
+      "detail": "你列出了汰片、追色与 RAW 文件处理三个具体例子；耗时与竞品比较仍以你的描述为准。",
+      "sourceIds": [
+        "src-initial-observation-04",
+        "src-outline-004"
+      ],
+      "openQuestions": [
+        "在这些技术中，哪一个最直接影响当前销售或交付？"
+      ],
+      "fields": {}
+    },
+    {
+      "id": "its-online-sales-001",
+      "quadrant": "It",
+      "kind": "opinion",
+      "status": "reported",
+      "title": "网销渠道没有打开",
+      "detail": "你将网销运行近一年仍未形成可规模复制的能力，列为这一判断的画面。",
+      "sourceIds": [
+        "src-initial-observation-05",
+        "src-outline-005"
+      ],
+      "openQuestions": [
+        "网销目前如何获取、转化并交付客户？"
+      ],
+      "fields": {}
+    },
+    {
+      "id": "its-product-lines-001",
+      "quadrant": "It",
+      "kind": "opinion",
+      "status": "reported",
+      "title": "同时间在做的产品偏多",
+      "detail": "你列出了产品线、功能线和管理线并行推进的项目；“偏多”仍是你的判断。",
+      "sourceIds": [
+        "src-initial-observation-06",
+        "src-outline-006",
+        "src-outline-037",
+        "src-outline-038",
+        "src-outline-039"
+      ],
+      "openQuestions": [
+        "目前这些线的人力和研发排期如何分配？"
+      ],
+      "fields": {
+        "大的产品线": "图灵精修、九大件、成长规划书、超级品控、图灵智影",
+        "功能线": "汰片、多样性品控、超级对齐、AIGC融图",
+        "管理线": "数据看板、CRM等"
+      }
+    },
+    {
+      "id": "its-legacy-backlog-001",
+      "quadrant": "Its",
+      "kind": "opinion",
+      "status": "reported",
+      "title": "历史遗留问题长期积累未消化",
+      "detail": "这是你先前提出的判断。本次完整梳理没有再次展开，先保留为待确认的独立线索，不替你撤销或补充。",
+      "sourceIds": [
+        "src-initial-observation-07"
+      ],
+      "openQuestions": [
+        "这条是否仍要作为当前困局的独立线索？具体是哪类历史问题？"
+      ]
+    },
+    {
+      "id": "it-delivery-capability-001",
+      "quadrant": "It",
+      "kind": "opinion",
+      "status": "reported",
+      "title": "交付能力严重缺失",
+      "detail": "你列出客户成功经理到岗时间、未形成可复制交付方式，以及同一客户反复交付的情况。",
+      "sourceIds": [
+        "src-initial-observation-08",
+        "src-outline-007"
+      ],
+      "openQuestions": [
+        "最近一次同一客户反复交付时，实际发生了什么？"
+      ],
+      "fields": {}
+    },
+    {
+      "id": "its-delivery-threshold-001",
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "产品对客户有一定的交付门槛",
+      "detail": "你将这些客户侧条件列在“交付能力严重缺失”之下。三种门槛分别保留；尚未知道发生频次及通常如何解决。",
+      "sourceIds": [
+        "src-initial-observation-09",
+        "src-outline-040",
+        "src-outline-041",
+        "src-outline-042",
+        "src-outline-043"
+      ],
+      "openQuestions": [
+        "这些门槛各在哪次交付中出现？团队当时怎样处理？"
+      ],
+      "fields": {
+        "网络条件": "网络条件不好的客户需要重新布网",
+        "电脑条件": "电脑条件不好的，需要升级电脑，否则就比较慢",
+        "图灵闪传": "图灵闪传需要手机，有些老板不愿意买"
+      }
+    },
+    {
+      "id": "it-quality-nine-pieces",
+      "sourceIds": [
+        "src-outline-008"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "9大件交付后客户没有都用起来，发布后又修改了3个月",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "哪些部分没有用起来？发布后修改由谁提出、谁安排？"
+      ]
+    },
+    {
+      "id": "it-quality-aigc-client",
+      "sourceIds": [
+        "src-outline-010"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "AIGC交付给小鬼当佳后，近1个月修改才满足需求",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "交付时与最终满足的需求之间差在哪里？"
+      ]
+    },
+    {
+      "id": "it-quality-child-plan",
+      "sourceIds": [
+        "src-outline-012"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "儿童规划书演示版本仍有基本问题",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "相册浏览具体出现了什么问题？"
+      ]
+    },
+    {
+      "id": "it-sales-personal",
+      "sourceIds": [
+        "src-outline-014"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "销售仍依靠个人能力成交，客户资源有所浪费",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "哪些客户资源被浪费？怎样看出来？"
+      ]
+    },
+    {
+      "id": "it-sales-tools",
+      "sourceIds": [
+        "src-outline-016"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "销售作战武器不完整",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "现有销售材料有哪些，具体缺什么？"
+      ]
+    },
+    {
+      "id": "it-sales-training",
+      "sourceIds": [
+        "src-outline-018"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "新品销售培训严重滞后，没有SOP指导",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "哪次新品上市与培训之间出现了怎样的时间差？"
+      ]
+    },
+    {
+      "id": "it-sales-unit",
+      "sourceIds": [
+        "src-outline-020"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "销售单元模型尚未完全复制拓展",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "目前复制到哪些团队，哪里没有展开？"
+      ]
+    },
+    {
+      "id": "it-review-management",
+      "sourceIds": [
+        "src-outline-022"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "管理层几乎没有认真做过复盘",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "最近一次原本需要复盘的事，管理层实际怎样处理？"
+      ]
+    },
+    {
+      "id": "it-review-weekly",
+      "sourceIds": [
+        "src-outline-023"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "多数问题在周会上才暴露",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "是哪类问题，在发生多久后才进入周会？"
+      ]
+    },
+    {
+      "id": "it-tech-taipian",
+      "sourceIds": [
+        "src-outline-025"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "汰片从立项到基本可用耗时约半年",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "立项与基本可用之间经历了哪些关键节点？"
+      ]
+    },
+    {
+      "id": "it-tech-color",
+      "sourceIds": [
+        "src-outline-027"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "追色问题近一年仍落后于竞品",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "比较依据是什么？具体表现在哪里？"
+      ]
+    },
+    {
+      "id": "it-tech-raw",
+      "sourceIds": [
+        "src-outline-029"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "新RAW格式文件处理尚无突破性方案",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "哪些RAW文件或处理场景仍无法解决？"
+      ]
+    },
+    {
+      "id": "it-online-scale",
+      "sourceIds": [
+        "src-outline-031"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "网销运作近一年，尚未形成可规模化复制的能力",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "目前网销获客、成交和复制各怎样运作？"
+      ]
+    },
+    {
+      "id": "it-delivery-csm",
+      "sourceIds": [
+        "src-outline-033"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "9月才找到客户成功经理，交付尚未形成可复制的高效率体系",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "客户成功经理到岗后，交付任务怎样分工？"
+      ]
+    },
+    {
+      "id": "it-delivery-repeat",
+      "sourceIds": [
+        "src-outline-035"
+      ],
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "多次到同一家客户处推动并反复交付",
+      "detail": "以下是你在本次梳理中提供的具体情况；发生频次、范围或细节仍可继续核对。",
+      "fields": {},
+      "openQuestions": [
+        "最近一次为什么需要再次到场？"
+      ]
+    },
+    {
+      "id": "its-delivery-standard",
+      "sourceIds": [
+        "src-outline-044",
+        "src-outline-045",
+        "src-outline-046",
+        "src-outline-047"
+      ],
+      "quadrant": "Its",
+      "kind": "system",
+      "status": "reported",
+      "title": "没有一个产品交付标准，测试版就可以交给客户测试",
+      "detail": "这是你描述的现有组织安排或条件。各项做法与其影响关系仍可继续核实。",
+      "fields": {
+        "当前做法": "测试版就可以交给客户测试",
+        "预售安排": "公司允许在产品不成熟的时候进行预售",
+        "你给出的背景": "为了实现短期销售业绩目标"
+      },
+      "openQuestions": [
+        "实际由谁决定测试版可交给客户，依据什么判断成熟度？"
+      ]
+    },
+    {
+      "id": "its-sales-onboarding",
+      "sourceIds": [
+        "src-outline-048",
+        "src-outline-049",
+        "src-outline-050"
+      ],
+      "quadrant": "Its",
+      "kind": "system",
+      "status": "reported",
+      "title": "没有一个严肃一点的销售上岗的考核和SOP",
+      "detail": "这是你描述的现有组织安排或条件。各项做法与其影响关系仍可继续核实。",
+      "fields": {
+        "考核取向": "注重结果考核，不重视过程考核",
+        "你给出的背景": "为了实现短期销售目标"
+      },
+      "openQuestions": [
+        "销售上岗现在由谁判断、怎样判断？"
+      ]
+    },
+    {
+      "id": "its-repeatable-review",
+      "sourceIds": [
+        "src-outline-051",
+        "src-outline-052",
+        "src-outline-053"
+      ],
+      "quadrant": "Its",
+      "kind": "system",
+      "status": "reported",
+      "title": "没有一个可以持续复用的规则和机制",
+      "detail": "这是你描述的现有组织安排或条件。各项做法与其影响关系仍可继续核实。",
+      "fields": {
+        "考核取向": "注重结果考核，而忽略了过程",
+        "你给出的判断": "没有受到重视"
+      },
+      "openQuestions": [
+        "问题从周会暴露后，现有复盘与纠错实际怎样继续？"
+      ]
+    },
+    {
+      "id": "its-tech-talent",
+      "sourceIds": [
+        "src-outline-054",
+        "src-outline-055"
+      ],
+      "quadrant": "Its",
+      "kind": "system",
+      "status": "reported",
+      "title": "近年来技术高手难以找到",
+      "detail": "这是你描述的现有组织安排或条件。各项做法与其影响关系仍可继续核实。",
+      "fields": {
+        "当前团队影响": "技术处于主导优势，其他团队难以推动"
+      },
+      "openQuestions": [
+        "哪些技术岗位难招？跨团队事项现在由谁决定优先级？"
+      ]
+    },
+    {
+      "id": "its-online-positioning",
+      "sourceIds": [
+        "src-outline-056",
+        "src-outline-057"
+      ],
+      "quadrant": "Its",
+      "kind": "system",
+      "status": "reported",
+      "title": "产品在网销上没有一个清晰的定位",
+      "detail": "这是你描述的现有组织安排或条件。各项做法与其影响关系仍可继续核实。",
+      "fields": {
+        "公司重点": "公司的重点在渠道和大B端"
+      },
+      "openQuestions": [
+        "目前网销产品定位由谁确定，怎样投入资源？"
+      ]
+    },
+    {
+      "id": "its-ceo-decision",
+      "sourceIds": [
+        "src-outline-058",
+        "src-outline-059",
+        "src-outline-060"
+      ],
+      "quadrant": "Its",
+      "kind": "system",
+      "status": "reported",
+      "title": "CEO评估和决策",
+      "detail": "这是你描述的现有组织安排或条件。各项做法与其影响关系仍可继续核实。",
+      "fields": {
+        "此前尝试": "试过其他方式，没有更好的方法了",
+        "当前要求": "因此，对CEO的判断要求提升"
+      },
+      "openQuestions": [
+        "最近一次相关产品或资源决策，CEO依据什么作出判断？"
+      ]
+    },
+    {
+      "id": "its-delivery-sop",
+      "sourceIds": [
+        "src-outline-061",
+        "src-outline-062"
+      ],
+      "quadrant": "Its",
+      "kind": "system",
+      "status": "reported",
+      "title": "没有形成完整交付的SOP和方法论",
+      "detail": "这是你描述的现有组织安排或条件。各项做法与其影响关系仍可继续核实。",
+      "fields": {
+        "岗位情况": "关键岗位缺失"
+      },
+      "openQuestions": [
+        "交付目前按什么步骤进行，缺的是哪个关键岗位？"
+      ]
+    },
+    {
+      "id": "we-online-try-it",
+      "sourceIds": [
+        "src-outline-063"
+      ],
+      "quadrant": "We",
+      "kind": "clue",
+      "status": "hypothesis",
+      "title": "网销上的“试一试”心态",
+      "detail": "你用“侥幸心理，试一试心态吧”描述一种可能的态度。尚不清楚是谁这样想、是否为团队共同默认。",
+      "fields": {},
+      "openQuestions": [
+        "这种说法来自哪些人或哪些具体决策？"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "link-it-1-evidence-1",
+      "from": "it-delivery-quality-001",
+      "to": "it-quality-nine-pieces",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-001",
+        "src-outline-008"
+      ]
+    },
+    {
+      "id": "link-it-1-evidence-2",
+      "from": "it-delivery-quality-001",
+      "to": "it-quality-aigc-client",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-001",
+        "src-outline-010"
+      ]
+    },
+    {
+      "id": "link-it-1-evidence-3",
+      "from": "it-delivery-quality-001",
+      "to": "it-quality-child-plan",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-001",
+        "src-outline-012"
+      ]
+    },
+    {
+      "id": "link-it-1-its-1",
+      "from": "it-delivery-quality-001",
+      "to": "its-delivery-standard",
+      "label": "对应的现有安排如何影响表现？",
+      "status": "hypothesis",
+      "basis": "用户按相同编号列出 It 表现和 Its 安排；安排怎样影响行为仍需要具体运作经过。",
+      "sourceIds": [
+        "src-outline-001",
+        "src-outline-044"
+      ]
+    },
+    {
+      "id": "link-it-2-evidence-1",
+      "from": "it-sales-capability-001",
+      "to": "it-sales-personal",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-002",
+        "src-outline-014"
+      ]
+    },
+    {
+      "id": "link-it-2-evidence-2",
+      "from": "it-sales-capability-001",
+      "to": "it-sales-tools",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-002",
+        "src-outline-016"
+      ]
+    },
+    {
+      "id": "link-it-2-evidence-3",
+      "from": "it-sales-capability-001",
+      "to": "it-sales-training",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-002",
+        "src-outline-018"
+      ]
+    },
+    {
+      "id": "link-it-2-evidence-4",
+      "from": "it-sales-capability-001",
+      "to": "it-sales-unit",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-002",
+        "src-outline-020"
+      ]
+    },
+    {
+      "id": "link-it-2-its-2",
+      "from": "it-sales-capability-001",
+      "to": "its-sales-onboarding",
+      "label": "对应的现有安排如何影响表现？",
+      "status": "hypothesis",
+      "basis": "用户按相同编号列出 It 表现和 Its 安排；安排怎样影响行为仍需要具体运作经过。",
+      "sourceIds": [
+        "src-outline-002",
+        "src-outline-048"
+      ]
+    },
+    {
+      "id": "link-it-3-evidence-1",
+      "from": "it-review-correction-001",
+      "to": "it-review-management",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-003",
+        "src-outline-022"
+      ]
+    },
+    {
+      "id": "link-it-3-evidence-2",
+      "from": "it-review-correction-001",
+      "to": "it-review-weekly",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-003",
+        "src-outline-023"
+      ]
+    },
+    {
+      "id": "link-it-3-its-3",
+      "from": "it-review-correction-001",
+      "to": "its-repeatable-review",
+      "label": "对应的现有安排如何影响表现？",
+      "status": "hypothesis",
+      "basis": "用户按相同编号列出 It 表现和 Its 安排；安排怎样影响行为仍需要具体运作经过。",
+      "sourceIds": [
+        "src-outline-003",
+        "src-outline-051"
+      ]
+    },
+    {
+      "id": "link-it-4-evidence-1",
+      "from": "it-technology-progress-001",
+      "to": "it-tech-taipian",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-004",
+        "src-outline-025"
+      ]
+    },
+    {
+      "id": "link-it-4-evidence-2",
+      "from": "it-technology-progress-001",
+      "to": "it-tech-color",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-004",
+        "src-outline-027"
+      ]
+    },
+    {
+      "id": "link-it-4-evidence-3",
+      "from": "it-technology-progress-001",
+      "to": "it-tech-raw",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-004",
+        "src-outline-029"
+      ]
+    },
+    {
+      "id": "link-it-4-its-4",
+      "from": "it-technology-progress-001",
+      "to": "its-tech-talent",
+      "label": "对应的现有安排如何影响表现？",
+      "status": "hypothesis",
+      "basis": "用户按相同编号列出 It 表现和 Its 安排；安排怎样影响行为仍需要具体运作经过。",
+      "sourceIds": [
+        "src-outline-004",
+        "src-outline-054"
+      ]
+    },
+    {
+      "id": "link-it-5-evidence-1",
+      "from": "its-online-sales-001",
+      "to": "it-online-scale",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-005",
+        "src-outline-031"
+      ]
+    },
+    {
+      "id": "link-it-5-its-5",
+      "from": "its-online-sales-001",
+      "to": "its-online-positioning",
+      "label": "对应的现有安排如何影响表现？",
+      "status": "hypothesis",
+      "basis": "用户按相同编号列出 It 表现和 Its 安排；安排怎样影响行为仍需要具体运作经过。",
+      "sourceIds": [
+        "src-outline-005",
+        "src-outline-056"
+      ]
+    },
+    {
+      "id": "link-it-6-its-6",
+      "from": "its-product-lines-001",
+      "to": "its-ceo-decision",
+      "label": "对应的现有安排如何影响表现？",
+      "status": "hypothesis",
+      "basis": "用户按相同编号列出 It 表现和 Its 安排；安排怎样影响行为仍需要具体运作经过。",
+      "sourceIds": [
+        "src-outline-006",
+        "src-outline-058"
+      ]
+    },
+    {
+      "id": "link-it-7-evidence-1",
+      "from": "it-delivery-capability-001",
+      "to": "it-delivery-csm",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-007",
+        "src-outline-033"
+      ]
+    },
+    {
+      "id": "link-it-7-evidence-2",
+      "from": "it-delivery-capability-001",
+      "to": "it-delivery-repeat",
+      "label": "判断所据的具体描述",
+      "status": "confirmed",
+      "basis": "用户在这条 It 判断下列出该情况；确认的是用户表达的对应关系，事实与因果尚未独立核实。",
+      "sourceIds": [
+        "src-outline-007",
+        "src-outline-035"
+      ]
+    },
+    {
+      "id": "link-it-7-its-7",
+      "from": "it-delivery-capability-001",
+      "to": "its-delivery-sop",
+      "label": "对应的现有安排如何影响表现？",
+      "status": "hypothesis",
+      "basis": "用户按相同编号列出 It 表现和 Its 安排；安排怎样影响行为仍需要具体运作经过。",
+      "sourceIds": [
+        "src-outline-007",
+        "src-outline-061"
+      ]
+    },
+    {
+      "id": "link-delivery-threshold",
+      "from": "it-delivery-capability-001",
+      "to": "its-delivery-threshold-001",
+      "label": "交付门槛的具体表现",
+      "status": "confirmed",
+      "basis": "用户将客户侧三种门槛列在交付能力条目之下；尚未证明它们造成整体销售结果。",
+      "sourceIds": [
+        "src-outline-007",
+        "src-outline-040"
+      ]
+    },
+    {
+      "id": "link-online-attitude",
+      "from": "its-online-positioning",
+      "to": "we-online-try-it",
+      "label": "可能涉及共同默认",
+      "status": "hypothesis",
+      "basis": "用户将“侥幸心理，试一试心态吧”写在网销定位条目下；是否为团队文化仍待核实。",
+      "sourceIds": [
+        "src-outline-056",
+        "src-outline-063"
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-outline-1",
+      "title": "1 · 产品交付质量低",
+      "nodeIds": [
+        "it-delivery-quality-001",
+        "it-quality-nine-pieces",
+        "it-quality-aigc-client",
+        "it-quality-child-plan",
+        "its-delivery-standard"
+      ]
+    },
+    {
+      "id": "thread-outline-2",
+      "title": "2 · 销售体系化能力不足",
+      "nodeIds": [
+        "it-sales-capability-001",
+        "it-sales-personal",
+        "it-sales-tools",
+        "it-sales-training",
+        "it-sales-unit",
+        "its-sales-onboarding"
+      ]
+    },
+    {
+      "id": "thread-outline-3",
+      "title": "3 · 没有做及时复盘和纠错的机制",
+      "nodeIds": [
+        "it-review-correction-001",
+        "it-review-management",
+        "it-review-weekly",
+        "its-repeatable-review"
+      ]
+    },
+    {
+      "id": "thread-outline-4",
+      "title": "4 · 关键技术突破的慢",
+      "nodeIds": [
+        "it-technology-progress-001",
+        "it-tech-taipian",
+        "it-tech-color",
+        "it-tech-raw",
+        "its-tech-talent"
+      ]
+    },
+    {
+      "id": "thread-outline-5",
+      "title": "5 · 网销渠道没有打开",
+      "nodeIds": [
+        "its-online-sales-001",
+        "it-online-scale",
+        "its-online-positioning",
+        "we-online-try-it"
+      ]
+    },
+    {
+      "id": "thread-outline-6",
+      "title": "6 · 同时间在做的产品偏多",
+      "nodeIds": [
+        "its-product-lines-001",
+        "its-ceo-decision"
+      ]
+    },
+    {
+      "id": "thread-outline-7",
+      "title": "7 · 交付能力严重缺失",
+      "nodeIds": [
+        "it-delivery-capability-001",
+        "it-delivery-csm",
+        "it-delivery-repeat",
+        "its-delivery-threshold-001",
+        "its-delivery-sop"
+      ]
+    },
+    {
+      "id": "thread-legacy-open",
+      "title": "先前提到 · 历史遗留问题待确认",
+      "nodeIds": [
+        "its-legacy-backlog-001"
+      ]
+    }
+  ],
+  "questions": [
+    "以“9大件交付后没有都用起来”为例：当时由谁决定可以交付客户，依据什么判断已经达到交付条件？"
+  ]
+}

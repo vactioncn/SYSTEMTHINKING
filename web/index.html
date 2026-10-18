@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f1">
+  <meta name="description" content="在 Codex 中对话，从具体画面看见组织安排。一个持续生长的四象限思考画布。">
+  <title>观局 · MPI 四象限思考画布</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="观局首页"><span class="brand-mark"><i></i><i></i><i></i><i></i></span><span>观局<small>MPI · 四象限思考画布</small></span></a>
+      <div class="workspace-label">我的探寻空间 <span>LOCAL</span></div>
+      <button id="live-switch" class="workspace-card" aria-pressed="true"><span class="workspace-symbol">◈</span><span><b>真实困局</b><small id="topic-short">等待第一段对话</small></span><span class="workspace-dot"></span></button>
+      <nav aria-label="画布导航">
+        <button class="nav-item active" data-view="canvas"><span data-icon="grid"></span>整体画布<span class="nav-tail">01</span></button>
+        <button class="nav-item" data-view="threads"><span data-icon="route"></span>探寻线索<span id="thread-count" class="nav-tail">0</span></button>
+        <a id="loop-nav" class="nav-item" href="/loops"><span data-icon="route"></span>系统回路<span class="nav-tail">↗</span></a>
+        <button class="nav-item" data-view="history"><span data-icon="history"></span>讨论记录</button>
+      </nav>
+      <div class="sidebar-section"><span class="eyebrow">这一次，我们怎样探寻</span><div class="journey"><span class="journey-point">It</span><span>还原具体画面</span></div><div class="journey-line"></div><div class="journey"><span class="journey-point system">Its</span><span>理解现有安排</span></div><p>出现共同默认或内心想法时，<br>再连向 We 与 I。</p></div>
+      <div class="sidebar-bottom"><button id="example-switch" class="text-button"><span data-icon="book"></span>看看教学示例<span>↗</span></button><button class="text-button" data-view="method"><span data-icon="compass"></span>理论与使用方法</button><div class="local-note"><span class="status-dot"></span>保存在这台电脑上</div></div>
+    </aside>
+    <main>
+      <header class="topbar"><div class="breadcrumb">探寻空间<span>/</span><strong id="view-name">整体画布</strong></div><div class="top-actions"><span id="sync-status" role="status"><i class="status-dot"></i>正在连接画布</span><button id="export-button" class="button" aria-haspopup="menu" aria-expanded="false"><span data-icon="download"></span>保存与导出</button><div id="export-menu" class="export-menu" role="menu" hidden><button role="menuitem" data-export="json">导出结构化记录 <small>JSON · 可继续更新</small></button><button role="menuitem" data-export="html">导出离线画布 <small>HTML · 可展开、缩放、分享</small></button></div></div></header>
+      <section class="page-heading"><div><div class="eyebrow" id="page-eyebrow">把复杂的事情，慢慢看清</div><h1 id="page-title">四个视角，一个共同的困局<span>。</span></h1><p id="page-description">在 Codex 里对话，在这里看见联系。每一份理解，都可以继续补充和修正。</p></div><div class="revision-badge" id="revision-badge"><span class="revision-orbit">↗</span><div><b id="revision-label">准备开始</b><small id="revision-date">等待第一段真实记录</small></div></div></section>
+      <div id="mode-banner" class="mode-banner" hidden></div>
+      <section id="canvas-view" class="view">
+        <div class="canvas-toolbar"><div class="view-tabs"><button class="active" id="overview-button"><span data-icon="grid"></span>四象限</button><label class="thread-select"><span data-icon="route"></span><select id="thread-select" aria-label="聚焦探寻线索"><option value="">全部线索</option></select></label></div><div class="canvas-options"><button id="links-toggle" class="quiet-button" aria-pressed="true"><span data-icon="link"></span><span>联系</span></button><button id="expand-toggle" class="quiet-button" aria-pressed="false"><span data-icon="expand"></span><span>展开详情</span></button><span class="toolbar-divider"></span><button id="zoom-out" class="icon-button" aria-label="缩小">−</button><button id="zoom-value" class="zoom-value" title="点击以 100% 阅读">100%</button><button id="zoom-in" class="icon-button" aria-label="放大">+</button><button id="fit-button" class="icon-button" aria-label="适应画布" title="适应画布"><span data-icon="fit"></span></button></div></div>
+        <div id="viewport" class="canvas-viewport" tabindex="0" aria-label="四象限画布，可滚动、拖动空白区域或使用缩放按钮"><div id="board-stage"><div id="board" class="board"><div class="axis-label interior">内在 <span>体验与意义</span></div><div class="axis-label exterior">外在 <span>行为与系统</span></div><div class="axis-vertical individual">个体</div><div class="axis-vertical collective">集体</div><svg id="connections" aria-hidden="true"></svg><section class="quadrant q-i" id="quadrant-I"></section><section class="quadrant q-it" id="quadrant-It"></section><div class="core-wrap"><div class="core-line"></div><button id="core-topic" class="core-topic"><span class="eyebrow">共同面对的核心困局</span><strong id="core-title"></strong><span id="core-caption"></span></button><div class="core-line"></div></div><section class="quadrant q-we" id="quadrant-We"></section><section class="quadrant q-its" id="quadrant-Its"></section></div></div><div id="canvas-loading" class="canvas-loading">正在打开画布…</div></div>
+        <div class="canvas-legend"><div><span><i class="legend-line"></i>已确认的联系</span><span><i class="legend-line dashed"></i>待验证的联系</span><span class="legend-note">确认表述联系 ≠ 证明因果</span></div><span class="pan-hint">拖动空白处平移 · 点击卡片展开</span></div>
+        <div class="conversation-note"><div class="conversation-icon" data-icon="message"></div><div><span class="eyebrow">留在对话里，继续往下看</span><p id="next-question"></p></div><span class="conversation-tag">在 Codex 中聊</span></div>
+      </section>
+      <section id="threads-view" class="view reading-view" hidden></section>
+      <section id="history-view" class="view reading-view" hidden></section>
+      <section id="method-view" class="view reading-view" hidden>
+        <div class="method-intro"><span class="eyebrow">THE MAP & THE PRACTICE</span><h2>四象限是一张观察地图。</h2><p>肯·威尔伯（Ken Wilber）的整合理论用“个体／集体”与“内在／外在”两个维度，呈现同一件事并存的四个面向。它们彼此关联，没有重要性排序，也不是四个阶段。</p></div>
+        <div class="method-grid"><article class="tone-i"><b>I · 个体内在</b><p>我的信念、感受、顾虑，以及面对困局时的内心想法。</p></article><article class="tone-it"><b>It · 个体外在</b><p>人做了什么、没做什么，以及可观察的行为与能力表现。</p></article><article class="tone-we"><b>We · 集体内在</b><p>共同文化、默认规则、互动习惯与共享信念。</p></article><article class="tone-its"><b>Its · 集体外在</b><p>分工、制度、流程、考核、资源配置，以及相关外部条件。</p></article></div>
+        <article class="method-prose"><h3>这次练习，先看画面，再看安排。</h3><p>按你描述的 JOEY 课堂练习，从 It 的具体行为出发，追问 Its 中什么实际安排让这些行为发生或持续；触及共同文化或个人信念时，再连接 We 或 I。这是本次探寻路径，不是原理论规定的唯一顺序。</p><div class="practice-flow"><span>最初的观点</span><i>→</i><span>具体行为与事件</span><i>→</i><span>现有安排怎样运作</span></div><p>适用于销售持续未达标、交付反复出现问题、跨部门协作受阻等需要共同理解的经营困局。先看清现状，再决定是否进入方案讨论。</p><h3>让每一条理解都有来处。</h3><p>观点不自动变成事实。已描述表示你提供了这个说法，已核实表示有明确核实依据；待核实事项继续保留。实线表示对话中确认了这条联系，不等于已经证明因果；虚线表示有待检验的联系。没有依据时，可以不画线。</p><h3>你在 Codex 里聊，画布跟着更新。</h3><p>每轮只追问一两个关键问题。整理后的记录保存后，打开的本地画布约一秒内同步。可以点击卡片查看来源、聚焦一条线索、回看历史版本，或导出可离线打开的画布。这里不设聊天窗口或填写流程。</p><p>同步需要本机服务运行；它不会自动读取所有聊天，也不提供多人实时共同编辑。与团队练习可以投屏，或分享离线画布；新开 Codex 对话时，继续选择本项目即可读取已存记录。</p><p class="method-source">理论参考：<a href="https://integrallife.com/quadrants/" target="_blank" rel="noreferrer">Integral Life · What Are the Four Quadrants? ↗</a><br>练习流程：本次需求中对 JOEY 课堂方法的描述。</p></article>
+      </section>
+      <footer class="page-footer"><span>MPI · 组织困局探寻</span><span>允许未知，也允许理解改变。</span></footer>
+    </main>
+  </div>
+  <div id="drawer-backdrop" class="drawer-backdrop" hidden></div><aside id="detail-drawer" class="detail-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" hidden><button id="close-drawer" class="icon-button close-drawer" aria-label="关闭详情">×</button><div id="drawer-content"></div></aside>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="/app.js" defer></script>
+</body>
+</html>

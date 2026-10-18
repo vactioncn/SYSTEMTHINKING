@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "revision": 0,
+  "updatedAt": null,
+  "changeSummary": "建立回路图空间，参考示例与真实分析分别保存",
+  "diagrams": [
+    {
+      "id": "demo-presales",
+      "mode": "example",
+      "title": "提前预售的双重效应",
+      "subtitle": "财务压力的短期缓解，与销售投入被挤占的长期反馈",
+      "notes": "绘图示例 · 根据你提供的参考图重绘。箭头表示其他条件相同时的影响方向，不代表必然结果或影响大小。",
+      "nodes": [
+        {
+          "id": "finance",
+          "label": "财务压力",
+          "x": 160,
+          "y": 215,
+          "width": 180,
+          "fontSize": 30,
+          "color": "#29434e",
+          "notes": "",
+          "sourceNodeIds": []
+        },
+        {
+          "id": "cash",
+          "label": "预售回款",
+          "x": 710,
+          "y": 45,
+          "width": 180,
+          "fontSize": 30,
+          "color": "#27858b",
+          "notes": "",
+          "sourceNodeIds": []
+        },
+        {
+          "id": "presale",
+          "label": "未成熟产品的\n提前预售力度",
+          "x": 1190,
+          "y": 210,
+          "width": 260,
+          "fontSize": 30,
+          "color": "#29434e",
+          "notes": "",
+          "sourceNodeIds": []
+        },
+        {
+          "id": "demand",
+          "label": "客户催单与\n提前交付压力",
+          "x": 1350,
+          "y": 425,
+          "width": 250,
+          "fontSize": 30,
+          "color": "#29434e",
+          "notes": "",
+          "sourceNodeIds": []
+        },
+        {
+          "id": "gap",
+          "label": "实际交付与\n客户需求的差距",
+          "x": 1240,
+          "y": 650,
+          "width": 290,
+          "fontSize": 30,
+          "color": "#29434e",
+          "notes": "",
+          "sourceNodeIds": []
+        },
+        {
+          "id": "service",
+          "label": "销售安抚与协调\n客户的时间投入",
+          "x": 930,
+          "y": 870,
+          "width": 310,
+          "fontSize": 30,
+          "color": "#29434e",
+          "notes": "",
+          "sourceNodeIds": []
+        },
+        {
+          "id": "new-sales",
+          "label": "新客开发与成交\n推进的时间投入",
+          "x": 475,
+          "y": 870,
+          "width": 310,
+          "fontSize": 30,
+          "color": "#29434e",
+          "notes": "",
+          "sourceNodeIds": []
+        },
+        {
+          "id": "revenue",
+          "label": "后续新增\n销售回款",
+          "x": 125,
+          "y": 660,
+          "width": 190,
+          "fontSize": 30,
+          "color": "#29434e",
+          "notes": "",
+          "sourceNodeIds": []
+        }
+      ],
+      "edges": [
+        {
+          "id": "e-pressure-presale",
+          "from": "finance",
+          "to": "presale",
+          "polarity": "+",
+          "color": "#29434e",
+          "route": {
+            "c1": {
+              "along": 0.3,
+              "offset": 110
+            },
+            "c2": {
+              "along": 0.72,
+              "offset": 110
+            }
+          },
+          "status": "confirmed",
+          "delay": false,
+          "label": "",
+          "basis": "用户提供的参考图中的示意关系；仅作绘图案例，不代表公司的已确认事实。",
+          "labelPosition": 0.86,
+          "labelOffset": 23
+        },
+        {
+          "id": "e-presale-cash",
+          "from": "presale",
+          "to": "cash",
+          "polarity": "+",
+          "color": "#27858b",
+          "route": {
+            "c1": {
+              "along": 0.1,
+              "offset": 140
+            },
+            "c2": {
+              "along": 0.7,
+              "offset": 95
+            }
+          },
+          "status": "confirmed",
+          "delay": false,
+          "label": "",
+          "basis": "用户提供的参考图中的示意关系；仅作绘图案例，不代表公司的已确认事实。",
+          "labelPosition": 0.86,
+          "labelOffset": 23
+        },
+        {
+          "id": "e-cash-pressure",
+          "from": "cash",
+          "to": "finance",
+          "polarity": "-",
+          "color": "#27858b",
+          "route": {
+            "c1": {
+              "along": 0.3,
+              "offset": 140
+            },
+            "c2": {
+              "along": 0.83,
+              "offset": 110
+            }
+          },
+          "status": "confirmed",
+          "delay": false,
+          "label": "",
+          "basis": "用户提供的参考图中的示意关系；仅作绘图案例，不代表公司的已确认事实。",
+          "labelPosition": 0.86,
+          "labelOffset": 23
+        },
+        {
+          "id": "e-presale-demand",
+          "from": "presale",
+          "to": "demand",
+          "polarity": "+",
+          "color": "#ba6b38",
+          "route": {
+            "c1": {
+              "along": 0.6,
+              "offset": -110
+            },
+            "c2": {
+              "along": 0.9,
+              "offset": -80
+            }
+          },
+          "status": "confirmed",
+          "delay": false,
+          "label": "",
+          "basis": "用户提供的参考图中的示意关系；仅作绘图案例，不代表公司的已确认事实。",
+          "labelPosition": 0.86,
+          "labelOffset": 23
+        },
+        {
+          "id": "e-demand-gap",
+          "from": "demand",
+          "to": "gap",
+          "polarity": "+",
+          "color": "#ba6b38",
+          "route": {
+            "c1": {
+              "along": 0.3,
+              "offset": -75
+            },
+            "c2": {
+              "along": 0.8,
+              "offset": -65
+            }
+          },
+          "status": "hypothesis",
+          "delay": false,
+          "label": "",
+          "basis": "参考图标为待核实的关系。",
+          "labelPosition": 0.86,
+          "labelOffset": 23
+        },
+        {
+          "id": "e-gap-service",
+          "from": "gap",
+          "to": "service",
+          "polarity": "+",
+          "color": "#ba6b38",
+          "route": {
+            "c1": {
+              "along": 0.35,
+              "offset": -65
+            },
+            "c2": {
+              "along": 0.75,
+              "offset": -70
+            }
+          },
+          "status": "confirmed",
+          "delay": false,
+          "label": "",
+          "basis": "用户提供的参考图中的示意关系；仅作绘图案例，不代表公司的已确认事实。",
+          "labelPosition": 0.86,
+          "labelOffset": 23
+        },
+        {
+          "id": "e-service-new",
+          "from": "service",
+          "to": "new-sales",
+          "polarity": "-",
+          "color": "#ba6b38",
+          "route": {
+            "c1": {
+              "along": 0.3,
+              "offset": -80
+            },
+            "c2": {
+              "along": 0.72,
+              "offset": -80
+            }
+          },
+          "status": "confirmed",
+          "delay": false,
+          "label": "",
+          "basis": "用户提供的参考图中的示意关系；仅作绘图案例，不代表公司的已确认事实。",
+          "labelPosition": 0.86,
+          "labelOffset": 23
+        },
+        {
+          "id": "e-new-revenue",
+          "from": "new-sales",
+          "to": "revenue",
+          "polarity": "+",
+          "color": "#ba6b38",
+          "route": {
+            "c1": {
+              "along": 0.4,
+              "offset": -105
+            },
+            "c2": {
+              "along": 0.8,
+              "offset": -80
+            }
+          },
+          "status": "hypothesis",
+          "delay": true,
+          "label": "",
+          "basis": "参考图标为待核实的关系。",
+          "labelPosition": 0.86,
+          "labelOffset": 23
+        },
+        {
+          "id": "e-revenue-pressure",
+          "from": "revenue",
+          "to": "finance",
+          "polarity": "-",
+          "color": "#ba6b38",
+          "route": {
+            "c1": {
+              "along": 0.24,
+              "offset": -115
+            },
+            "c2": {
+              "along": 0.74,
+              "offset": -135
+            }
+          },
+          "status": "confirmed",
+          "delay": false,
+          "label": "",
+          "basis": "用户提供的参考图中的示意关系；仅作绘图案例，不代表公司的已确认事实。",
+          "labelPosition": 0.86,
+          "labelOffset": 23
+        }
+      ],
+      "loops": [
+        {
+          "id": "balancing",
+          "title": "短期缓解",
+          "description": "",
+          "color": "#27858b",
+          "edgeIds": [
+            "e-pressure-presale",
+            "e-presale-cash",
+            "e-cash-pressure"
+          ],
+          "x": 710,
+          "y": 155,
+          "rx": 540,
+          "ry": 155,
+          "labelX": 710,
+          "labelY": 163
+        },
+        {
+          "id": "reinforcing",
+          "title": "长期反馈",
+          "description": "眼前的缓解，可能增加\n对同一种解法的依赖",
+          "color": "#ba6b38",
+          "edgeIds": [
+            "e-pressure-presale",
+            "e-presale-demand",
+            "e-demand-gap",
+            "e-gap-service",
+            "e-service-new",
+            "e-new-revenue",
+            "e-revenue-pressure"
+          ],
+          "x": 700,
+          "y": 620,
+          "rx": 650,
+          "ry": 365,
+          "labelX": 710,
+          "labelY": 590
+        }
+      ]
+    },
+    {
+      "id": "company-sales",
+      "title": "销售持续未达标 · 系统回路",
+      "subtitle": "从变量和有依据的影响关系开始",
+      "mode": "live",
+      "notes": "围绕公司的真实困局继续探寻。示例中的关系不自动成为此图的事实。",
+      "nodes": [],
+      "edges": [],
+      "loops": []
+    }
+  ]
+}

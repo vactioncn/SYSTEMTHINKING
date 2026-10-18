@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "mode": "live",
+  "revision": 0,
+  "updatedAt": null,
+  "changeSummary": "画布已准备好，等待真实困局。需求中的案例单独保存在教学示例中。",
+  "topic": {
+    "title": "我们正在面对怎样的困局？",
+    "status": "pending",
+    "sourceIds": []
+  },
+  "sources": [],
+  "nodes": [],
+  "links": [],
+  "threads": [],
+  "questions": [
+    "这次，你想一起看清哪个反复发生的经营困局？"
+  ]
+}

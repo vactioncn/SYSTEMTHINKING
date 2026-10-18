@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "mode": "example",
+  "revision": 0,
+  "updatedAt": null,
+  "changeSummary": "仅演示如何整理需求中的教学例子，不代表任何公司的已确认事实。",
+  "topic": {
+    "title": "过去几年，销售结果持续未达标",
+    "status": "confirmed",
+    "sourceIds": [
+      "s-topic"
+    ]
+  },
+  "sources": [
+    {
+      "id": "s-topic",
+      "origin": "exercise",
+      "label": "需求中的示例议题",
+      "quote": "例如，我的议题是：过去几年，销售结果持续未达标。"
+    },
+    {
+      "id": "s-delivery",
+      "origin": "exercise",
+      "label": "需求中的交付示例",
+      "quote": "产品交付质量不好可以逐渐展开为：客户使用时遇到问题、提出退款；销售随后反复解释、协调和上门安抚，占用了其他销售工作的时间。"
+    },
+    {
+      "id": "s-products",
+      "origin": "exercise",
+      "label": "需求中的产品线示例",
+      "quote": "例如，我说产品线多、产品经理频繁切换、研发排期积压。往下聊，可能发现新品主要由 CEO 综合市场机会和研发条件判断后决定。"
+    },
+    {
+      "id": "s-culture",
+      "origin": "exercise",
+      "label": "需求中的文化线索示例",
+      "quote": "继续追问时，如果出现‘我们默认老板说了算’‘我们相信打仗阶段必须快’等内容，就标记为通向 We 或 I 的线索，暂时收尾。"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "it-quality",
+      "quadrant": "It",
+      "kind": "opinion",
+      "status": "reported",
+      "title": "产品交付质量不好",
+      "detail": "最初的判断。先保留这句话，再还原支撑它的具体画面。",
+      "sourceIds": [
+        "s-delivery"
+      ],
+      "openQuestions": [
+        "具体是哪一次交付、哪类问题？"
+      ]
+    },
+    {
+      "id": "it-refund",
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "客户遇到使用问题，提出退款",
+      "detail": "示例里描述了客户的行为；产品、时间、客户及发生频次尚未展开。",
+      "sourceIds": [
+        "s-delivery"
+      ],
+      "fields": {
+        "谁": "客户（具体对象待补充）",
+        "场景": "产品使用过程中",
+        "做了什么": "遇到问题后提出退款"
+      },
+      "openQuestions": [
+        "客户实际遇到了什么？"
+      ]
+    },
+    {
+      "id": "it-sales",
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "销售反复解释、协调和上门安抚",
+      "detail": "沿着实际动作继续看：销售在这段过程中承担了哪些工作。",
+      "sourceIds": [
+        "s-delivery"
+      ],
+      "fields": {
+        "谁": "销售",
+        "做了什么": "反复解释、协调和上门安抚"
+      },
+      "openQuestions": [
+        "发生频次和耗时是多少？"
+      ]
+    },
+    {
+      "id": "it-time",
+      "quadrant": "It",
+      "kind": "outcome",
+      "status": "reported",
+      "title": "其他销售工作的时间被占用",
+      "detail": "这是示例中描述的结果。时间占比、对销售结果的影响尚无数据。",
+      "sourceIds": [
+        "s-delivery"
+      ],
+      "openQuestions": [
+        "哪些工作被推迟了？有可核对的记录吗？"
+      ]
+    },
+    {
+      "id": "it-switch",
+      "quadrant": "It",
+      "kind": "observation",
+      "status": "reported",
+      "title": "产品经理频繁切换",
+      "detail": "需求中的概括性行为描述，仍需要一次具体切换的事件来展开。",
+      "sourceIds": [
+        "s-products"
+      ],
+      "openQuestions": [
+        "谁在什么情境下改变了优先级？"
+      ]
+    },
+    {
+      "id": "it-backlog",
+      "quadrant": "It",
+      "kind": "outcome",
+      "status": "reported",
+      "title": "研发排期积压",
+      "detail": "示例中的现象。积压规模、持续时间，以及与产品经理切换的关系均未展开。",
+      "sourceIds": [
+        "s-products"
+      ],
+      "openQuestions": [
+        "积压了哪些任务，持续多久？"
+      ]
+    },
+    {
+      "id": "its-lines",
+      "quadrant": "Its",
+      "kind": "opinion",
+      "status": "reported",
+      "title": "产品线太多",
+      "detail": "关于产品组合及资源安排的初始判断；多少条、怎样分配资源，还没有展开。",
+      "sourceIds": [
+        "s-products"
+      ],
+      "openQuestions": [
+        "产品线和人力实际如何分布？"
+      ]
+    },
+    {
+      "id": "its-decision",
+      "quadrant": "Its",
+      "kind": "system",
+      "status": "hypothesis",
+      "title": "新品主要由 CEO 综合判断后决定",
+      "detail": "原文为‘可能发现’：这是演示中的待核实安排，不能当作已确认事实。即使没有正式文件，也可以描述实际运作。",
+      "sourceIds": [
+        "s-products"
+      ],
+      "fields": {
+        "谁决定": "CEO（待核实）",
+        "依据什么": "市场机会与研发条件（待核实）",
+        "如何分工": "尚未展开",
+        "资源如何分配": "尚未展开",
+        "偏差如何反馈": "尚未展开"
+      },
+      "openQuestions": [
+        "最近一次新品决策具体怎样发生？",
+        "决策后，排期与资源如何调整？"
+      ]
+    },
+    {
+      "id": "we-boss",
+      "quadrant": "We",
+      "kind": "clue",
+      "status": "hypothesis",
+      "title": "“我们默认老板说了算”",
+      "detail": "仅保留为可能通向共同文化的线索。谁认同、在哪些情况下成立，都还需要核实。",
+      "sourceIds": [
+        "s-culture"
+      ],
+      "openQuestions": [
+        "这是个人理解，还是多人共同表达过的默认规则？"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "l-quality",
+      "from": "it-quality",
+      "to": "it-refund",
+      "label": "判断所指的具体画面",
+      "status": "confirmed",
+      "basis": "教学示例明确用退款事件展开质量判断；这不是质量问题已被独立验证。",
+      "sourceIds": [
+        "s-delivery"
+      ]
+    },
+    {
+      "id": "l-service",
+      "from": "it-refund",
+      "to": "it-sales",
+      "label": "随后发生",
+      "status": "confirmed",
+      "basis": "示例中明确描述‘销售随后’采取这些行动。",
+      "sourceIds": [
+        "s-delivery"
+      ]
+    },
+    {
+      "id": "l-time",
+      "from": "it-sales",
+      "to": "it-time",
+      "label": "描述中的时间占用",
+      "status": "confirmed",
+      "basis": "示例原文直接描述时间被占用，没有提供量化数据。",
+      "sourceIds": [
+        "s-delivery"
+      ]
+    },
+    {
+      "id": "l-resource",
+      "from": "its-lines",
+      "to": "it-switch",
+      "label": "与切换、积压有关？",
+      "status": "hypothesis",
+      "basis": "仅在同一个例子中出现，尚不足以确认影响关系。",
+      "sourceIds": [
+        "s-products"
+      ]
+    },
+    {
+      "id": "l-decision",
+      "from": "its-decision",
+      "to": "it-switch",
+      "label": "怎样影响排期？",
+      "status": "hypothesis",
+      "basis": "探寻方向，尚需决策与排期事件的具体证据。",
+      "sourceIds": [
+        "s-products"
+      ]
+    },
+    {
+      "id": "l-culture",
+      "from": "its-decision",
+      "to": "we-boss",
+      "label": "可能通向共同默认",
+      "status": "hypothesis",
+      "basis": "原文给出的文化线索示例，未确认适用于这个决策安排。",
+      "sourceIds": [
+        "s-products",
+        "s-culture"
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-delivery",
+      "title": "交付问题与销售时间",
+      "nodeIds": [
+        "it-quality",
+        "it-refund",
+        "it-sales",
+        "it-time"
+      ]
+    },
+    {
+      "id": "thread-products",
+      "title": "产品组合与研发排期",
+      "nodeIds": [
+        "it-switch",
+        "it-backlog",
+        "its-lines",
+        "its-decision",
+        "we-boss"
+      ]
+    }
+  ],
+  "questions": [
+    "最近一次让你觉得‘交付质量不好’的事件，具体发生了什么？",
+    "当时的分工是怎样让销售承担这些协调工作的？"
+  ]
+}
